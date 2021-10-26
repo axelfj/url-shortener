@@ -1,7 +1,9 @@
-const mongoose = require("mongoose");
+// const mongoose = require("mongoose");
+
+import { connect, LegacyAsyncValidateFn, get } from "mongoose";
 
 const startServer = async () => {
-  await mongoose.connect();
+  await connect();
 
   mongoose.listen(mongoose.get("port"), () => {
     console.log(
