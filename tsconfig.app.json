@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "types": ["vite/client", "vitest/globals"], "moduleResolution": "bundler", "target": "ES2022" },
+  "include": ["src/App.tsx", "src/index.tsx", "src/reportWebVitals.ts", "src/react-app-env.d.ts" ]
+}
