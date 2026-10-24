@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "types": ["node"], "moduleResolution": "node", "target": "ES2022", "module": "commonjs" },
+  "include": ["src/api.ts", "src/api-server.ts"]
+}
