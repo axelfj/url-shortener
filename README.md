@@ -51,3 +51,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 Use Node.js 24. Run `npm ci --ignore-scripts`, `npm start`, `npm test`, and `npm run build`. The production output remains in `build/`. The unsupported Create React App toolchain has been replaced with Vite and Vitest.
 
 The browser entry point no longer imports Express. Run the existing `/create` API separately with `npm run api` (port 5000, loopback by default; configure HOST and PORT for deployment). The experimental database/server examples remain outside the client and API type-check targets. Rotate the database credential that was previously committed, as described in SECURITY.md.
+
+## Project references
+
+See [URL shortener references](docs/url-shortener-references.md) for the historical MongoDB tutorial and an archived MIT-licensed TypeScript/PostgreSQL implementation.
